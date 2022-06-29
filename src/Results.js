@@ -15,6 +15,9 @@ export default function Results(props)
           </div>
           );
         })}
+        <div className="col">
+      <h3><span className="speakerIcon">🔉</span> Pronunciation</h3>
+      </div>
       </div>
     );
   }

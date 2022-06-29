@@ -4,7 +4,7 @@ import "./meaning.css";
 export default function Meaning(props)
 {
   return (
-    <div className="meaning border p-3 mb-1">
+    <div className="meaning border rounded p-3 mb-1">
       <h3 className="text-capitalize">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function(definition, index) {
         return (

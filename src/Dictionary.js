@@ -41,9 +41,6 @@ export default function Dictionary()
         </div>
       </form>
       <Results results={results} />
-      <div className="col">
-      <h3><span className="speakerIcon">🔉</span> Pronunciation</h3>
-      </div>
     </div>
   )
 }
