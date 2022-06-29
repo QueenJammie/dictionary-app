@@ -13,7 +13,7 @@ export default function Dictionary()
 
   function handleResponse(response)
   {
-    // console.log(response.data[0]);
+    console.log(response.data[0]);
   }
 
   function search(event)
@@ -26,7 +26,7 @@ export default function Dictionary()
   }
 
   return (
-    <div className="Dictionary mt-5 p-3 border">
+    <div className="Dictionary-box mt-5 p-3 border">
       <form onSubmit={search}>
         <div className="row">
           <div className="col-6 mb-3">
@@ -60,8 +60,6 @@ export default function Dictionary()
       <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple.inc" />
       <img src="https://www.jardiner-malin.fr/wp-content/uploads/2021/09/pommier.jpg" alt="Pommier" />
       <img src="http://4.bp.blogspot.com/-o6g58a6fRG0/U1Pxya3QbiI/AAAAAAAAJMw/FAvqau4WTpQ/s1600/P4205939.JPG" alt="Apple pie" />
-      
-      
     </div>
   )
 }

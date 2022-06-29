@@ -1,3 +1,7 @@
+body
+{
+  background-color: rgba(243, 243, 125, 0.908);
+}
 img
 {
   width: 200px;
@@ -16,6 +20,10 @@ li
 .Dictionary
 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Dictionary-box
+{
+  background-color: white;
 }
 .speakerIcon
 {
