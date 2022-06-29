@@ -1,7 +1,17 @@
-footer
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: rgb(193, 48, 157);
+}
+
+.footer
 {
-  text-align: center;
+  text-align: left;
   margin-top: 15px;
+  padding-left: 60px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
