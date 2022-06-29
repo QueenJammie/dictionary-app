@@ -9,14 +9,21 @@ a:hover {
 
 .footer
 {
-  text-align: left;
   margin-top: 15px;
-  padding-left: 60px;
+  padding-right: 50%;
+}
+.App .footer
+{
+  text-align: center;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.title
+{
+  margin-left: 12%;
 }
 
 .App-logo{

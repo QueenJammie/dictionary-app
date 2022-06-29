@@ -10,7 +10,7 @@ export default function App() {
         <body>
           <header className="App-header">
             <div className='row mt-5'>
-              <h1 class="ms-2 mb-0"><img src={logo} className="App-logo" alt="logo" />React Dictionary app.</h1>
+              <h1 className="title mb-0"><img src={logo} className="me-0 App-logo" alt="logo" />React Dictionary app.</h1>
             </div>
           </header>
           <main>
