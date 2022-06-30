@@ -26,6 +26,8 @@ li
   background-color: white;
   margin: auto;
   max-width: 1000px;
+  border-radius: 8px;
+
 }
 .speakerIcon
 {
