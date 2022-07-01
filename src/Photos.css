@@ -1,0 +1,21 @@
+.photographer
+{
+    color: black;
+    font-weight: bold;
+}
+
+.photos
+{
+    padding: 0px;
+    padding-bottom: 0;
+    box-shadow: 1px 1px silver;
+}
+
+.photo
+{
+    border-radius: 4px;
+    padding: 3px;
+    max-width: 200px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
