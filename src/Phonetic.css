@@ -1,10 +1,17 @@
-.sourceUrl
+.Phonetic .a-btn
+{
+    margin-right: 25px;
+}
+
+.Phonetic .sourceUrl
 {
     font-size: smaller;
     font-style: italic;
     color: black;
+    position: relative;
+    top: 7px;
 }
-.sourceUrl:hover
+.Phonetic .sourceUrl:hover
 {
     color: #ea92ba;
 }

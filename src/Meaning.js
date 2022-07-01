@@ -11,7 +11,7 @@ export default function Meaning(props) {
         return (
           <div key={index} className="box meaning-box">
             <ul>
-              <p className="mb-2">
+              <div className="meaning-box">
                 <strong>Definition:</strong> {definition.definition}
                 <br />
                 {definition.example && (
@@ -22,7 +22,7 @@ export default function Meaning(props) {
                 )}
                 <Synonyms synonyms={definition.synonyms} />
                 <Antonyms antonyms={definition.antonyms} />
-              </p>
+              </div>
             </ul>
           </div>
         );
