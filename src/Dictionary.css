@@ -1,6 +1,12 @@
 body
 {
-  background-color: rgba(243, 243, 125, 0.908);
+  background-image: url(./images/biblio.jpg);
+  background-position: left top;
+  background-attachment: fixed;
+}
+input
+{
+  width: 90%;
 }
 img
 {
@@ -17,17 +23,23 @@ li
   font-size: small;
   margin: 2px;
 }
+.hint
+{
+  margin-top: 5px;
+  font-size: 11px;
+}
 .Dictionary
 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Dictionary-box
 {
-  background-color: white;
+  background-image: url(./images/parchmen.png);
+  background-repeat: repeat;
   margin: auto;
   max-width: 1000px;
   border-radius: 8px;
-
+  box-shadow: 6px 6px 15px silver;
 }
 .speakerIcon
 {

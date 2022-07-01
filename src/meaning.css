@@ -7,4 +7,11 @@ ul
 .meaning-box
 {
     box-shadow: 2px 1px 4px grey;
+    padding-left: 10px;
+}
+.examples
+{
+    opacity: 0.9;
+    font-style: italic;
+    font-size: 14px;
 }
