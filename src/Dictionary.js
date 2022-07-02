@@ -55,8 +55,9 @@ export default function Dictionary(props)
     return (
       <div className="Dictionary-box mt-5 p-3 border">
         <form onSubmit={handleSubmit}>
-          <div className="row">
+          <div className="row"><span className="mb-1">Do you have a word in mind?</span>
             <div className="col-9 mb-3">
+              
               <input type="search" placeholder="What do you have in mind?" autofocus="on" 
               defaultValue={props.defaultKeyword} className="form-control" onChange={updateKeywordChange} />
             </div>

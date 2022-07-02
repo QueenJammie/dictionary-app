@@ -1,16 +1,21 @@
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #000;
 }
 
 a:hover {
   color: #ea92ba;
 }
 
+footer p
+{
+  background-color: #fff;
+}
+
 .footer
 {
   margin-top: 15px;
-  padding-right: 50%;
+  margin: 10 auto;
 }
 .App .footer
 {
